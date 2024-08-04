@@ -1,9 +1,7 @@
 # Airflow Setup - dev
 
-Este repositório contém um setup de desenvolvimento do Airflow usando o arquivo docker compose oficial. O arquivo pode ser encontrado no seguinte link:
-```
-https://airflow.apache.org/docs/apache-airflow/2.9.3/docker-compose.yaml
-```
+Este repositório contém um setup de desenvolvimento do Airflow usando <a href="https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html">este guia oficial</a>. Além disso, o `docker-compose.yaml` utilizando é o arquivo oficial encontrado <a href="https://airflow.apache.org/docs/apache-airflow/2.9.3/docker-compose.yaml">neste link</a> e a única alteração realizada foi a alteração da variável `AIRFLOW__CORE__LOAD_EXAMPLES` de `'true'` para `'false'`.
+
 
 Para subir a instância, execute os comandos a seguir
 
