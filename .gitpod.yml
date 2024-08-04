@@ -1,0 +1,4 @@
+tasks:
+    - name: export airflow id
+      command: echo 'export AIRFLOW_UID=50000'>>~/.bashrc
+    # - command: bash setup.sh
